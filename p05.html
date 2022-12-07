@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typhoon Journey Game</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nextpage_style.css">
+    <link rel="stylesheet" href="page5.css">
+    <link href="favicon-32x32.png" rel="shortcut icon">
+                
+</head>
+<body>
+    <h3 class="title">Journey: Will You Survive?</h3>
+    <audio controls="controls" autoplay playsinline loop>
+        <source src="audio/Thatched-Villagers.mp3" type="audio/mp3">
+
+    </audio>
+    <div class="center">
+        <img src="image/image5_bc.jpg" class="pic" id="p5bc">
+        <!-- <a href="p06.html" class="toPage">Next</a> -->
+        <div>
+            <img src="image/image5_1.png" class="p5message">
+
+            <input type="image" class="p5button_2" src="image/image5_2_gif.gif" onclick="p5button_2_f()" id="p5b2"/>
+            <img src="image/image5_2_gif.gif" class="p5button_hover_2" id="p5button_hover_2">
+            <input type="image" class="p5button_3" src="image/image5_3_gif.gif" onclick="p5button_3_f()" id="p5b3"/>
+            <img src="image/image5_3_gif.gif" class="p5button_hover_3" id="p5button_hover_3">
+            <input type="image" class="p5button_4" src="image/image5_4_gif.gif" onclick="p5button_4_f()" id="p5b4"/>
+            <img src="image/image5_4_gif.gif" class="p5button_hover_4" id="p5button_hover_4">
+            <input type="image" class="p5button_5" src="image/image5_5_gif.gif" onclick="p5button_5_f()" id="p5b5"/>
+            <img src="image/image5_5_gif.gif" class="p5button_hover_5" id="p5button_hover_5">
+
+            <img src="image/image5_bc_3.webp" class="p5bc_border">
+            <img src="image/image5_6.png" class="p5popmessage" id="p5popmessage">
+            <div class="filter"></div>
+            <button class="p5evacuate" id="evacuate1" onclick="evacuate_false()">我想留在家<br>不撤離</button>
+            <button class="p5evacuate" id="evacuate2" onclick="evacuate_true()">感覺有點危險<br>撤離!!!</button>
+        </div>
+        <div class="popup_intro" id="p5_intro">
+            <img src="image/image5_info.png" class="image_intro">
+            <button class="popup_intro_btn" onclick="intro_cancel()">OK!</button>
+        </div>
+        <img src="image/image5_end1_gif.gif" class="p5loading" id="p5loading1">
+        <img src="image/image5_end2_gif.gif" class="p5loading" id="p5loading2">
+    </div>
+    <script src="page5.js"></script>
+</body>
+</html>

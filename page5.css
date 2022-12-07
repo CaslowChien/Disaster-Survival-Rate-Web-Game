@@ -1,0 +1,228 @@
+.p5message{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    bottom: 424px;
+    left: 40px;
+}
+
+.p5message_move{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    left: 40px;
+    animation: m_moving 0.3s forwards;
+}
+
+@keyframes m_moving {
+    from { bottom: 424px }
+    to {bottom: 434px }
+}
+
+.p5button_2{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    height: 13%;
+    width: 13%;
+    bottom: 384px;
+    right: 410px;
+    z-index: 3;
+}
+
+.p5button_2:hover + .p5button_hover_2{
+    visibility: visible;
+}
+
+.p5button_hover_2{
+    position: relative;
+    visibility: hidden;
+    height: 15%;
+    width: 15%;
+    bottom: 594px;
+    left: 450px;
+    z-index: 2;
+}
+
+@keyframes moving_2 {
+    from { bottom: 524px }
+    to {bottom: 599px }
+}
+
+/* 3 */
+.p5button_3{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    height: 13%;
+    width: 13%;
+    bottom: 479px;
+    left: 205px;
+    z-index: 3;
+}
+
+.p5button_3:hover +.p5button_hover_3{
+    visibility: visible;
+}
+
+.p5button_hover_3{
+    position: relative;
+    visibility: hidden;
+    height: 15%;
+    width: 15%;
+    bottom: 594px;
+    left: 240px;
+    z-index: 2;
+}
+
+@keyframes moving_3 {
+    from { bottom: 524px }
+    to {bottom: 599px }
+}
+/* 4 */
+.p5button_4{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    height: 13%;
+    width: 13%;
+    bottom: 479px;
+    left: 45px;
+    z-index: 3;
+}
+
+.p5button_4:hover +.p5button_hover_4{
+    visibility: visible;
+}
+
+.p5button_hover_4{
+    position: relative;
+    visibility: hidden;
+    height: 15%;
+    width: 15%;
+    bottom: 596px;
+    left: 5px;
+    z-index: 2;
+}
+
+@keyframes moving_4 {
+    from { bottom: 524px }
+    to {bottom: 599px }
+}
+
+/* 5 */
+.p5button_5{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    height: 13%;
+    width: 13%;
+    bottom: 479px;
+    right: 115px;
+    z-index: 3;
+}
+
+.p5button_5:hover +.p5button_hover_5{
+    visibility: visible;
+}
+
+.p5button_hover_5{
+    position: relative;
+    visibility: hidden;
+    height: 15%;
+    width: 15%;
+    bottom: 696px;
+    left: 470px;
+    z-index: 2;
+}
+
+@keyframes moving_5 {
+    from { bottom: 654px }
+    to {bottom: 694px }
+}
+
+.p5popmessage{
+    position: relative;
+    width: 870px;
+    height: 580px;
+    bottom: 1634px;
+    right: 35px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+
+@keyframes moving {
+    from { bottom: 1634px; }
+    to {bottom: 1494px; }
+}
+
+.p5bc_border{
+    position: relative;
+    width: 100%;
+    bottom: 1015px;
+    z-index: 2;
+}
+
+.filter{
+    position: relative;
+    background-color: transparent;
+    width: 800px;
+    height: 450px;
+    bottom: 2050px;
+    z-index: 3;
+    visibility: hidden;
+}
+
+
+.p5evacuate{
+    position: relative;
+    display: inline-block;
+    font-family: "STKaiti";
+    visibility: hidden;
+    font-weight: 600;
+    font-size: 20px;
+    width: 156px;
+    height: 90px;
+    margin-right: 8px;
+    bottom: 2230px;
+    left: 238px;
+    background-color: white;
+    border-color: rgb(80, 82, 82);
+    box-shadow: 
+    0 0 10px 10px rgb(255, 255, 255),
+    0 0 20px 20px rgb(255, 255, 255, 0.2),
+    0px 25px 20px rgb(255, 255, 255, 1.0),
+    0px -25px 10px rgb(255, 255, 255, 0.8),
+    0px 30px 25px rgb(255, 255, 255, 0.2),
+    0px -30px 10px rgb(255, 255, 255, 0.7);
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 3px;
+    z-index: 3;
+}
+
+.p5evacuate:hover{
+    font-size: 22px;
+    border-width: 4px;
+}
+
+#p5_intro{
+    bottom: 2530px;
+    left: 140px;
+}
+
+.p5loading{
+    position: relative;
+    width: 100%;
+    z-index: 4;
+    visibility: hidden;
+}
+
+#p5loading1{
+    bottom: 2940px;
+}
+
+#p5loading2{
+    bottom: 3393px;
+}

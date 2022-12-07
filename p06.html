@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typhoon Journey Game</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nextpage_style.css">
+    <link rel="stylesheet" href="page6.css">
+    <link href="favicon-32x32.png" rel="shortcut icon">
+                
+</head>
+<body>
+    <h3 class="title">Journey: Will You Survive?</h3>
+    <audio controls="controls" autoplay playsinline loop>
+        <source src="audio/Snow-Cakes-with-friends.mp3" type="audio/mp3">
+
+    </audio>
+    <div class="center">
+        <img src="image/image6_bc.jpg" class="pic">
+        <button class="show_result" onclick="show_result()">&emsp;&emsp;&emsp;&emsp;</button>
+        <div class="blur"></div>
+        <img src="image/image6_blur.png" id="image6_result" class="image6_result">
+        <button class="result_info flash" onclick="show_result_info()" id="result_info">結果說明</button>
+        <div class="p6_popup">
+            <img class="p6_popup_left" src="image/image6_pop_1.webp" id="p6_popup_left">
+            <div class="p6_popup_right">
+                <p class="p6_popup_title" id="p6_0">少做這些而降低了存活可能...</p>
+                <p class="p6_popup_words" id="p6_1">手電筒&emsp;：於黑暗中提供照明</p>
+                <p class="p6_popup_words" id="p6_2">水&emsp;&emsp;&emsp;：在受困時提供飲水</p>
+                <p class="p6_popup_words" id="p6_3">乾糧罐頭：提供人體所需熱量</p>
+                <p class="p6_popup_words" id="p6_4">急救包&emsp;：提供急救所需藥品</p>
+                <p class="p6_popup_words" id="p6_5">睡袋&emsp;&emsp;：防止人體受困失溫</p>
+                <p class="p6_popup_words" id="p6_6">粗棉手套：避免碎石割傷雙手</p>
+                <p class="p6_popup_words" id="p6_7">哨子&emsp;&emsp;：呼救以提高獲救率</p>
+                <p class="p6_popup_words" id="p6_8">緊閉門窗：避免導致家中淹水</p>
+                <p class="p6_popup_words" id="p6_9">堆沙包&emsp;：避免導致家中淹水</p>
+                <p class="p6_popup_words" id="p6_10">盆栽移入室內：避免強風吹落</p>
+                <p class="p6_popup_words" id="p6_11">修剪樹木枝幹：避免樹木斷裂</p>
+                <p class="p6_popup_words" id="p6_12">疏通排水水溝：避免堵塞積水</p>
+                <p class="p6_popup_words" id="p6_13">颱風災害意識：更有應變能力</p>
+                <p class="p6_popup_words" id="p6_14">颱風撤離行為：避免生命危險</p>
+                <button class="popup_button" onclick="popup_button()">返回</button>
+                <button class="popup_button" onclick="popup_button_gov()">災害警示網</button>
+            </div>
+        </div>
+        <img src="image/image6_word2.png" class="show_result_word" >
+        <img src="image/image6_result_1.gif" class="image6_bc" id="image6_bc">
+        <p class="result_number">3000</p>
+        <p id="p6money1" class="result_number">123</p>
+        <p id="p6money2" class="result_number">123</p>
+        <p id="p6money3" class="result_number">123</p>
+    </div>
+    <script src="page6.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.title{
+    font-size: 30px;
+    margin: 10px;
+    /* margin-left: 230px; */
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white; 
+    padding: 10px;
+}
+
+audio{
+    position:absolute;
+    top: 8px;
+    right: 50px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.center .pic{
+    width: 800px;
+    height: 450px;
+    z-index: -1;
+}
+
+#smallpic{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin-right: 10px;
+}
+
+.smallpic img{
+    display: block;
+}
+  
+.words {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    position:relative;
+    bottom: 145px;
+    left: 280px;
+    width: 0;
+    white-space: nowrap;
+    border-right: 1px solid transparent;
+    animation-delay: 1s;
+    overflow: hidden;
+    /* background-color: rgb(203, 239, 239); */
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#words1{
+    animation: typing 2s 2s steps(16, end) forwards, blink-caret .75s step-end 5;
+}
+
+#words2{
+    animation: typing 2s 4s steps(16, end) forwards, blink-caret .75s 3.5s step-end 3;
+}
+
+#words3{
+    animation: typing 2s 6s steps(16, end) forwards, blink-caret .75s 5.5s step-end infinite ;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 16em; }
+}
+
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+
+.page1_bc{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    right: 8px;
+}
+
+.popup_intro{
+    position: relative;
+    height: 300px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -20px;
+    padding: 25px 35px 35px 40px;
+    box-shadow: 0 10px 10px -8px black;
+    z-index: 3;
+}
+.popup_intro_btn{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    position: relative;
+    width: 75%;
+    height: 12%;
+    font-size: 20px;
+    background-color: #fff;
+    border-color: rgb(173, 173, 173);
+    left: 15%;
+    bottom: 10px;
+}
+
+.popup_intro_btn:hover{
+    background-color: rgb(197, 197, 197);
+    font-weight: 900;
+    color: #fff;
+}
+
+.image_intro{
+    height: 90%;
+}
+
+body 
+{ 
+ overflow: hidden;
+}

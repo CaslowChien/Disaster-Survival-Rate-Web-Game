@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nextpage_style.css">
+    <link rel="stylesheet" href="page3.css">
+    <title>Typhoon Journey Game</title>
+    <link href="favicon-32x32.png" rel="shortcut icon">
+</head>
+<body>
+    <h3 class="title">Journey: Will You Survive?</h3>
+    <audio controls="controls" autoplay playsinline loop>
+        <source src="audio/Thatched-Villagers.mp3" type="audio/mp3">
+    </audio>
+    <div class="center">
+        <img src="image/image3_bc.webp" class="pic">
+        <a href="p04.html" class="toPage" onclick="remember();">Next</a>
+        <div class="money_garbage">
+            <p>.</p>
+        </div>
+        <button class= "item_flashlight" onclick="handle_flashlight()"> </button>
+        <button class= "item_giraffe" onclick="handle_giraffe()"> </button>
+        <button class= "item_plant" onclick="handle_plant()"></button>
+        <button class= "item_rock" onclick="handle_rock()"></button>
+        <button class= "item_water" onclick="handle_water()"></button>
+        <button class= "item_food" onclick="handle_food()"></button>
+        <button class= "item_basketball" onclick="handle_basketball()"></button>
+        <button class= "item_cake" onclick="handle_cake()"></button>
+        <button class= "item_duck" onclick="handle_duck()"></button>
+        <button class= "item_kit" onclick="handle_kit()"></button>
+        <button class= "item_cosmetic" onclick="handle_cosmetic()"></button>
+        <button class= "item_bag" onclick="handle_bag()"></button>
+        <button class= "item_clock" onclick="handle_clock()"></button>
+        <button class= "item_song" onclick="handle_song()"></button>
+        <button class= "item_handgloves" onclick="handle_handgloves()"></button>
+        <button class= "item_drum" onclick="handle_drum()"></button>
+        <button class= "item_whistle" onclick="handle_whistle()"></button>
+        <div class="popup">
+            <img src="image_small/image3_1_s.png" id="smallpic">
+            <p class="popup_words" id="popup_words_changable">thisistitle</p>
+            <p class="popup_words" id="price_changable">price</p>
+            <p class="popup_words" id="popup_info_changable">ipsum dolor sit amet consectetur adipisicing elit. Totam rem aliquid aliquam.</p>
+            <button class="popup_button" id="cancel">取消</button>
+            <button class="popup_button" id="confirm">確定</button>  
+        </div>
+        <div>
+            <p class="money">剩餘的金額: NT. </p>
+            <p class="money" id="money_total"> 3000</p>
+        </div>
+        <img src="image/image3_1.png" class="pic1">
+        <img src="image/image3_2.png" class="pic2">
+        <img src="image/image3_3.png" class="pic3">
+        <img src="image/image3_4.png" class="pic4">
+        <img src="image/image3_5.png" class="pic5">
+        <img src="image/image3_6.png" class="pic6">
+        <img src="image/image3_7.png" class="pic7">
+        <img src="image/image3_8.png" class="pic8">
+        <img src="image/image3_9.png" class="pic9">
+        <img src="image/image3_10.png" class="pic10">
+        <img src="image/image3_11.png" class="pic11">
+        <img src="image/image3_12.png" class="pic12">
+        <img src="image/image3_13.png" class="pic13">
+        <img src="image/image3_14.png" class="pic14">
+        <img src="image/image3_15.png" class="pic15">
+        <img src="image/image3_16.png" class="pic16">
+        <img src="image/image3_17.png" class="pic17">
+        <input type="button" class="backpack" onclick="backpack()" />
+        <div class="popup_backpack">
+            <p class="popup_backpack_word">看看你買了啥</p>
+            <button class="popup_backpack_cancel" onclick="backpack_cancel()">取消</button>
+            <img src="image_small/image3_1_s.png" class="backpack_img" id="backpack_img_1">
+            <img src="image_small/image3_2_s.png" class="backpack_img"  id="backpack_img_2">
+            <img src="image_small/image3_3_s.png" class="backpack_img"  id="backpack_img_3">
+            <img src="image_small/image3_4_s.png" class="backpack_img"  id="backpack_img_4">
+            <img src="image_small/image3_5_s.png" class="backpack_img"  id="backpack_img_5">
+            <img src="image_small/image3_6_s.png" class="backpack_img"  id="backpack_img_6">
+            <img src="image_small/image3_7_s.png" class="backpack_img"  id="backpack_img_7">
+            <img src="image_small/image3_8_s.png" class="backpack_img"  id="backpack_img_8">
+            <img src="image_small/image3_9_s.png" class="backpack_img"  id="backpack_img_9">
+            <img src="image_small/image3_10_s.png" class="backpack_img"  id="backpack_img_10">
+            <img src="image_small/image3_11_s.png" class="backpack_img"  id="backpack_img_11">
+            <img src="image_small/image3_12_s.png" class="backpack_img"  id="backpack_img_12">
+            <img src="image_small/image3_13_s.png" class="backpack_img"  id="backpack_img_13">
+            <img src="image_small/image3_14_s.png" class="backpack_img"  id="backpack_img_14">
+            <img src="image_small/image3_15_s.png" class="backpack_img"  id="backpack_img_15">
+            <img src="image_small/image3_16_s.png" class="backpack_img"  id="backpack_img_16">
+            <img src="image_small/image3_17_s.png" class="backpack_img"  id="backpack_img_17">
+        </div>
+        <img src="image/image4_backpack_gif.gif" class="gif_backpack">
+        <div class="popup_intro" id="p3_intro">
+            <img src="image/image3_info.webp" class="image_intro">
+            <button class="popup_intro_btn" onclick="intro_cancel()">OK!</button>
+        </div>
+    </div>
+    <script src="page3.js"></script>
+</body>
+</html>

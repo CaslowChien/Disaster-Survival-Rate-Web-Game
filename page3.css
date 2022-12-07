@@ -1,0 +1,603 @@
+.money_garbage{
+    position:relative;
+    font-size: 20px;
+    bottom: 445px;
+    left: 50px;
+    width: 220px;
+    padding: 5px;
+    z-index: -2;
+}
+
+.money{
+    color: 'black';
+    position: relative;
+    font-size: 20px;
+    background-color: transparent;
+    bottom: 920px;
+    left: 45px;
+    width: 220px;
+    padding: 5px;
+    font-weight: 900;
+    display: inline;
+    opacity: 1.0;
+}
+
+.popup{
+    height: 150px;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 240px;
+    bottom: 650px;
+    visibility:hidden;
+    z-index: 2;
+    box-shadow: 0 10px 10px -8px black;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -10px;
+}
+
+.popup_button{
+    position: relative;
+    width: 49%;
+    height: 22%;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 14px;
+    background-color: transparent;
+    border-color: rgb(173, 173, 173);
+}
+
+.popup_button:hover{
+    background-color: rgb(197, 197, 197);
+    font-weight: 900;
+    color: #fff;
+}
+
+.popup_words{
+    font-size: 16px;
+    vertical-align: top;
+    padding: 5px;
+    line-height: 20px;
+}
+
+.item_flashlight{
+    background-color: transparent;
+    cursor: pointer;
+    position:relative;
+    bottom: 545px;
+    left: 47px;
+    width: 60px;
+    height: 25px;
+    border: none;
+    z-index: 1;
+}
+
+.item_flashlight:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 10px 10px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.15);
+    z-index: 1;
+}
+
+.item_giraffe{
+    background-color: transparent;
+    cursor: pointer;
+    position:relative;
+    bottom: 390px;
+    left: 85px;
+    width: 35px;
+    height: 230px;
+    border: none;
+    z-index: 1;
+}
+
+.item_giraffe:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.1),
+    0px 0px 30px 30px rgba(247, 247, 79, 0.1),
+    0px 0px 60px 60px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_plant{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    bottom: 455px;
+    left: -40px;
+    border: none;
+    z-index: 1;
+}
+
+.item_plant:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 
+    0px 0px 10px 10px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1),
+    0px 0px 25px 25px rgba(247, 247, 79, 0.1);
+    z-index: 2;
+}
+
+.item_rock{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 55px;
+    height: 40px;
+    bottom: 368px;
+    left: -80px;
+    border: none;
+    z-index: 1;
+}
+
+.item_rock:hover{
+    background-color: rgba(247, 247, 79, 0.35);
+    box-shadow: 
+    0px 0px 10px 10px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1),
+    0px 0px 25px 25px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_water{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 40px;
+    bottom: 606px;
+    left: 115px;
+    border: none;
+    z-index: 1;
+}
+
+.item_water:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.15);
+    z-index: 1;
+}
+
+.item_food{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 35px;
+    height: 20px;
+    bottom: 605px;
+    left: 155px;
+    border: none;
+    z-index: 1;
+}
+
+.item_food:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.15);
+    z-index: 1;
+}
+
+.item_basketball{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    bottom: 612px;
+    left: 201px;
+    border: none;
+    z-index: 1;
+}
+
+.item_basketball:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.15);
+    z-index: 1;
+}
+
+.item_cake{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 25px;
+    bottom: 510px;
+    left: 15px;
+    border: none;
+    z-index: 1;
+}
+
+.item_cake:hover{
+    background-color: rgba(247, 247, 79, 0.4);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.15);
+    z-index: 1;
+}
+
+.item_duck{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    bottom: 515px;
+    left: 56px;
+    border: none;
+    z-index: 1;
+}
+
+.item_duck:hover{
+    background-color: rgba(247, 247, 79, 0.3);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.3),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_kit{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    bottom: 512px;
+    left: 90px;
+    border: none;
+    z-index: 1;
+}
+
+.item_kit:hover{
+    background-color: rgba(247, 247, 79, 0.3);
+    box-shadow: 0px 0px 20px 20px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_cosmetic{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 55px;
+    height: 47px;
+    bottom: 412px;
+    left: -113px;
+    border: none;
+    z-index: 1;
+}
+
+.item_cosmetic:hover{
+    background-color: rgba(247, 247, 79, 0.3);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_bag{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 110px;
+    height: 20px;
+    bottom: 422px;
+    left: -77px;
+    border: none;
+    z-index: 1;
+}
+
+.item_bag:hover{
+    background-color: rgba(247, 247, 79, 0.35);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.25),
+    0px 0px 20px 20px rgba(247, 247, 79, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.item_clock{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 530px;
+    left: 14px;
+    border: none;
+    z-index: 1;
+}
+
+.item_clock:hover{
+    background-color: rgba(247, 247, 79, 0.35);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_song{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 50px;
+    bottom: 557px;
+    left: 67px;
+    border: none;
+    z-index: 1;
+}
+
+.item_song:hover{
+    background-color: rgba(247, 247, 79, 0.35);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_handgloves{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 35px;
+    bottom: 470px;
+    left: -58px;
+    border: none;
+    z-index: 1;
+}
+.item_handgloves:hover{
+    background-color: rgba(247, 247, 79, 0.35);
+    box-shadow: 0px 0px 10px 10px rgba(247, 247, 79, 0.2),
+    0px 0px 10px 10px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_drum{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 43px;
+    bottom: 450px;
+    left: -50px;
+    border: none;
+    z-index: 1;
+}
+.item_drum:hover{
+    background-color: rgba(247, 247, 79, 0.3);
+    box-shadow: 0px 0px 15px 15px rgba(247, 247, 79, 0.2),
+    0px 0px 15px 15px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.item_whistle{
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    bottom: 420px;
+    left: 600px;
+    border: none;
+    z-index: 1;
+    border-radius: 8px;
+}
+.item_whistle:hover{
+    background-color: rgba(247, 247, 79, 0.3);
+    box-shadow: 0px 0px 10px 10px rgba(247, 247, 79, 0.2),
+    0px 0px 10px 10px rgba(247, 247, 79, 0.1);
+    z-index: 1;
+}
+
+.pic1{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 982px;
+}
+
+.pic2{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 1435px;
+}
+
+.pic3{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 1889px;
+}
+
+.pic4{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 2339px;
+}
+
+.pic5{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 2793px;
+}
+
+.pic6{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 3245px;
+}
+
+.pic7{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 3698px;
+}
+
+.pic8{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 4150px;
+}
+
+.pic9{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 4604px;
+}
+
+.pic10{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 5055px;
+}
+
+.pic11{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 5510px;
+}
+
+.pic12{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 5961px;
+}
+
+.pic13{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 6415px;
+}
+
+.pic14{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 6868px;
+}
+
+.pic15{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 7320px;
+}
+
+.pic16{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 7775px;
+}
+
+.pic17{
+    position: relative;
+    height: 450px;
+    width: 800px;
+    bottom: 8225px;
+}
+
+.backpack{
+    height: 70px;
+    width: 300px;
+    position: relative;
+    bottom: 8310px;
+    left: 250px;
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 2;
+}
+
+.backpack:hover{
+    cursor: pointer;
+}
+
+.popup_backpack{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    bottom: 8650px;
+    left: 170px;
+    border-radius: 10px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -20px;
+    visibility: hidden;
+    padding: 35px 35px 35px 40px;
+    box-shadow: 0 10px 10px -8px black;
+    z-index: 3;
+}
+
+.popup_backpack_word{
+    font-size: 18px;
+    padding: 5px 0px 10px 10px;
+}
+
+.popup_backpack_cancel{
+    font-size: 15px;
+    position: relative;
+    background-color: transparent;
+    display: block;
+    padding: 8px 30px 8px 30px;
+    top: 135px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.backpack_img{
+    position: relative;
+    bottom: 40px;
+    height: 62px;
+    width: 62px;
+    display: none;
+    padding-top: 3px;
+}
+
+.gif_backpack{
+    position: relative;
+    bottom: 9020px;
+    width: 800px;
+    height: 450px;
+}
+
+.p5_info{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    bottom: 9380px;
+    left: 170px;
+    border-radius: 10px;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -30px;
+    /* visibility: hidden; */
+    padding: 35px 35px 35px 40px;
+    box-shadow: 0 12px 12px -8px black;
+    z-index: 3;
+}
+
+.filter{
+    position: relative;
+    background-color: transparent;
+    width: 800px;
+    height: 450px;
+    bottom: 9750px;
+    z-index: 3;
+}
+
+#p3_intro{
+    bottom: 9410px;
+    left: 140px;
+}

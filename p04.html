@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nextpage_style.css">
+    <link rel="stylesheet" href="page4.css">
+    <title>Typhoon Journey Game</title>
+    <link href="favicon-32x32.png" rel="shortcut icon">
+</head>
+<body>
+    <h3 class="title">Journey: Will You Survive?</h3>
+    <audio controls="controls" autoplay playsinline loop>
+        <source src="audio/Wallpaper.mp3" type="audio/mp3">
+    </audio>
+    <div class="center">
+        <img src="image/image4_bc.webp" class="pic">
+        <a href="p05.html" class="toPage" onclick="remember();">Next</a>
+        <div class="popup">
+            <img src="image_small/image3_1_s.png" id="smallpic">
+            <p class="popup_words" id="popup_words_changable">thisistitle</p>
+            <p class="popup_words" id="price_changable">title</p>
+            <p class="popup_words" id="popup_info_changable">ipsum dolor sit amet consectetur adipisicing elit. Totam rem aliquid aliquam.</p>
+            <button class="popup_button" id="cancel">取消</button>
+            <button class="popup_button" id="confirm">確定</button>  
+        </div>
+        <div>
+            <p class="money">剩餘的時間:  </p>
+            <p class="money" id="time_total"> 100</p>
+            <p class="money">mins</p>
+        </div>
+        <img src="image/image4_1.png" class="pic4_1">
+        <img src="image/image4_2.png" class="pic4_2">
+        <img src="image/image4_3.png" class="pic4_3">
+        <img src="image/image4_4.png" class="pic4_4">
+        <img src="image/image4_5.png" class="pic4_5">
+        <img src="image/image4_6.png" class="pic4_6">
+        <img src="image/image4_7.png" class="pic4_7">
+        <img src="image/image4_8.png" class="pic4_8">
+        <img src="image/image4_9.png" class="pic4_9">
+        <button class= "item_window" onclick="handle_window()"> </button>
+        <button class= "item_potplant" onclick="handle_potplant()"></button>
+        <button class= "item_wall_1" onclick="handle_wall()"></button>
+        <button class= "item_wall_2" onclick="handle_wall()"></button>
+        <button class= "item_grass_1" onclick="handle_grass()"></button>
+        <button class= "item_grass_2" onclick="handle_grass()"></button>
+        <button class= "item_tree" onclick="handle_tree()"></button>
+        <button class= "item_statue" onclick="handle_statue()"></button>
+        <button class= "item_road" onclick="handle_road()"></button>
+        <button class= "item_car" onclick="handle_car()"></button>
+        <button class= "item_sandbag" onclick="handle_sandbag()"></button>
+        <img src="image/image4_bcgif.gif" class="gif"/>
+        <div class="popup_intro" id="p4_intro">
+            <img src="image/image4_info.webp" class="image_intro">
+            <button class="popup_intro_btn" onclick="intro_cancel()">OK!</button>
+        </div>
+    </div>
+    <script src="page4.js"></script>
+</body>
+</html>
