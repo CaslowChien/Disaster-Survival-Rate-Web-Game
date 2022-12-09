@@ -1,4 +1,4 @@
-# Disaster-Survival-Rate-Web-Game
+# Disaster-Survival-Possibility-Index-Web-Game
 **Introduction**
 
 Web Game of disaster survival rate index prediction
@@ -15,7 +15,7 @@ Download everything in this branch, p01.html would be the first page of the web.
 
 The data used to train to predict the survival rate index is from https://drrstat.ncdr.nat.gov.tw/ Social Impacts and Recovery Survey of Typhoon Morakot (2010~2019).
 
-# 生存率指數測試(網頁遊戲)
+# 災害生存指數預測(網頁遊戲)
 **簡介**
 
 當面對颱風災害發生，你的生存率指數會有多少呢? (結果預測是從深度機器學習計算出)，從以下連結開始遊玩吧!
